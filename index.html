@@ -21,10 +21,10 @@ dialog{width:min(96vw,1100px);max-height:96vh;padding:.5rem;border:1px solid var
 </style>
 </head>
 <body>
-<header><p class="eyebrow">27 · 28 · 29 novembre 2026</p><h1>The Big Latin Event</h1><p>La griglia degli stage, sempre aggiornata al giorno corrente.</p><p class="muted">Hotel Centergross · Bentivoglio (BO)</p></header>
+<header><p class="eyebrow">27 · 28 · 29 novembre 2026</p><h1>The Big Latin Event</h1><p>La griglia degli stage, sempre aggiornata al giorno corrente.</p></header>
 <nav aria-label="Seleziona la giornata"><button type="button" data-day="0" aria-selected="true">Ven 27</button><button type="button" data-day="1" aria-selected="false">Sab 28</button><button type="button" data-day="2" aria-selected="false">Dom 29</button></nav>
 <main><h2 id="day-title">Venerdì 27 novembre</h2><p class="hint">Tocca la locandina per aprirla e ingrandirla.</p><div class="poster-frame"><button id="open-poster" type="button" aria-label="Ingrandisci la locandina"><img id="poster" src="venerdi.jpg" alt="Programma di venerdì 27 novembre"></button></div></main>
-<footer><strong>HOTEL CENTERGROSS</strong><p>Via Saliceto, 8 · Bentivoglio (BO)<br>Ampio parcheggio gratuito</p><p class="muted">Le lezioni del programma esposto potrebbero essere soggette a variazioni.</p></footer>
+<footer><p class="muted">Le lezioni del programma esposto potrebbero essere soggette a variazioni.</p></footer>
 <dialog id="zoom" aria-label="Locandina ingrandita"><button class="close" id="close-zoom" type="button" aria-label="Chiudi">×</button><img id="zoom-image" src="venerdi.jpg" alt=""></dialog>
 <script>
 const days=[{title:'Venerdì 27 novembre',file:'venerdi.jpg'},{title:'Sabato 28 novembre',file:'sabato.jpg'},{title:'Domenica 29 novembre',file:'domenica.jpg'}];
